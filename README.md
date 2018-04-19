@@ -1,5 +1,5 @@
 # What is the qom
-The qom is the object model of [quem](https://github.com/qemu/qemu)(a.k.a. quick eumlator).With the qom, we can 
+The qom is the object model of [qemu](https://github.com/qemu/qemu)(a.k.a. quick emulator). With the qom, we can 
 use **c** language to write code in **OOP(object-oriented programming)** way.
 
 # Usage
@@ -16,7 +16,7 @@ make
 ./main
 ```
 
-# Guides
+# Guidances
 In qom the root object is object, defined in [object.h](https://github.com/Gyumeijie/qemu-object-model/blob/master/qom/object.h).
 all the newly-created object must inherit some object.And in qom a class is represented by two structs, one struct is called
 **instance struct**, the other is called **class struct**.
@@ -93,7 +93,7 @@ static const TypeInfo type_info = {
 ```
 and then register it by calling ```type_register_static(&type_info)```.
 
- # resources
+ # Resources
 - There is a project named [OBS-Framework](https://github.com/Gyumeijie/OBS-Framework) athoured by me, heavily 
 using qom model, you can visit it for more information.
 
