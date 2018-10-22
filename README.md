@@ -16,7 +16,7 @@ make
 ./main
 ```
 
-# Guidances
+# Guide
 In qom the root object is object, defined in [object.h](https://github.com/Gyumeijie/qemu-object-model/blob/master/qom/object.h).
 all the newly-created object must inherit some object.And in qom a class is represented by two structs, one struct is called
 **instance struct**, the other is called **class struct**.
